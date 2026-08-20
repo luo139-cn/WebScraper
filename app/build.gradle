@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.luo.webscraper'
-    compileSdkVersion 34
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.luo.webscraper"
         minSdkVersion 24
-        targetSdkVersion 34
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0.0"
     }
