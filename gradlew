@@ -1,2 +1,2 @@
 #!/bin/sh
-exec gradle "$@"
+exec java -classpath gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain "$@"
