@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    namespace 'com.luo.webscraper'
+    compileSdkVersion 34
     defaultConfig {
         applicationId "com.luo.webscraper"
         minSdkVersion 24
-        targetSdkVersion 30
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0.0"
     }
@@ -30,6 +31,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'org.jsoup:jsoup:1.15.3'
 }
